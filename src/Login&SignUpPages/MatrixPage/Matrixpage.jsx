@@ -1,5 +1,6 @@
 import React from 'react'
 import './matrix.css'
+import Login from './Login'
 
 function Matrixpage() {
   return (
@@ -109,18 +110,11 @@ function Matrixpage() {
     </div>
     <div className='div11'>
     </div>
-    <div className='div11'>
+  
+    <div className='div22'>
     </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
+    
+    
     <div className='div11'>
     </div>
     <div className='div11'>

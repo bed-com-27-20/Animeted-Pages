@@ -6,6 +6,7 @@ function App() {
     <div>
      <ul>
       <li><Link to="/matrixpage" className='listyle'>MatrixPage</Link></li>
+      <li><Link to="/Login" className='listyle'>Login</Link></li>
      </ul>
     </div>
   );
