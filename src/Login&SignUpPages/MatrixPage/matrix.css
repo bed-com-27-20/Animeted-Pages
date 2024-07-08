@@ -1,0 +1,28 @@
+.allin{
+    display: flex;
+    flex-direction: column;
+}
+
+.matrixBox{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(92, 9, 226);
+    height: 10vh;
+}
+
+.div11{
+    border: 2px solid black;
+    margin-left: 0.2px;
+    margin-right: 0.2px;
+    height: 10vh;
+    width: 10vh;
+}
+
+.div11:hover{
+    background-color: green;
+}
+
+.div11:not(:hover){
+    transition-delay: 0.2s;
+    transition: background-color 1.5s;
+}

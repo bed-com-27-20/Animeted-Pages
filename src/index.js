@@ -4,12 +4,18 @@ import './index.css';
 import App from './App';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import Matrixpage from './Login&SignUpPages/MatrixPage/Matrixpage';
 
 const router = createBrowserRouter([
 {
   path: "/",
-  element: <App/>
-}
+  element: <App/>,
+},
+{
+  path: "matrixpage",
+  element: <Matrixpage/>,
+},
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
