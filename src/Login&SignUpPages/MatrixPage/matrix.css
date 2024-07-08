@@ -26,3 +26,22 @@
     transition-delay: 0.2s;
     transition: background-color 1.5s;
 }
+
+@keyframes borderColorChange{
+    0%{
+        border-color: black;
+    }
+    33%{
+        border-color: black;
+    }
+    66%{
+        border-color: black;
+    }
+    100%{
+        border-color: green;
+    }
+}
+
+.div11{
+    animation: borderColorChange 10s infinite;
+}
