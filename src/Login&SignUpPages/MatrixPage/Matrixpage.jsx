@@ -108,46 +108,9 @@ function Matrixpage() {
     </div>
     <div className='div11'>
     </div>
-    <div className='div11'>
-    </div>
-  
+    
     <div className='div22'>
-    </div>
-    
-    
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-   </div>
-   <div className='matrixBox'>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
-    </div>
-    <div className='div11'>
+      <Login></Login>
     </div>
     <div className='div11'>
     </div>
@@ -394,7 +357,94 @@ function Matrixpage() {
     <div className='div11'>
     </div>
    </div>
-   
+   <div className='matrixBox'>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+   </div>
+   <div className='matrixBox'>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+    <div className='div11'>
+    </div>
+   </div>
    </div>
   )
 }

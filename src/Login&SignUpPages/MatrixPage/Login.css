@@ -1,5 +1,4 @@
 .logDiv{
-    border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     height: 400px;
@@ -24,7 +23,7 @@ input{
     height: 10%;
     background-color: transparent;
     opacity: 2;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
     border :1px solid #ccc; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -37,10 +36,16 @@ input{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.listyle{
+    text-decoration: none;
+}
+
 button{
   padding: 10px;
   background-color: green;
-  color: white;
+  color: black;
+  font-weight: bold;
+  font-size: large;
   border: none;
   cursor: pointer;
   width: 80%;

@@ -13,7 +13,7 @@ export default function Login() {
 
           <div className='texdiv'>
             <h4>Alredy have an account </h4>
-           <h4> <Link to="#">Register</Link></h4>
+           <h4> <Link to="#" className='listyle'>Register</Link></h4>
           </div>
 
         <button type="submit" className='lgbtz'>Login</button>
