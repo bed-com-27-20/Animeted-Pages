@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Login from './Login&SignUpPages/MatrixPage/Login'
 import Matrixpage from './Login&SignUpPages/MatrixPage/Matrixpage';
 import Logins from './Login&SignUpPages/SwapLogin&SignUp/Logins';
+import Aside from './Login&SignUpPages/Aside/Aside';
 
 const router = createBrowserRouter([
 {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
 {
   path: "Logins",
   element: <Logins/>,
+},
+{
+  path: "Aside",
+  element: <Aside/>,
 },
 ]);
 

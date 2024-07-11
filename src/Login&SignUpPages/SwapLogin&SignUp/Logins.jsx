@@ -9,7 +9,7 @@ const Logins = () => {
     setIsSwapped(!isSwapped);
     setTimeout(() => {
       setShowDiv2(!showDiv2);
-    }, 1000); // 1000 milliseconds = 5 seconds
+    }, 500); // 1000 milliseconds = 5 seconds
   };
 
   return (

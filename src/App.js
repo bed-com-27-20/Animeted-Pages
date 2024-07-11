@@ -8,6 +8,7 @@ function App() {
       <li><Link to="/matrixpage" className='listyle'>MatrixPage</Link></li>
       <li><Link to="/Login" className='listyle'>Login</Link></li>
       <li><Link to="/Logins" className='listyle'>Logins</Link></li>
+      <li><Link to="/Aside" className='listyle'>Aside</Link></li>
      </ul>
     </div>
   );

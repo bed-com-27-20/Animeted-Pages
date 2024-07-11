@@ -16,7 +16,7 @@
     width: 250px;
     height: 500px;
     left: 0;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .ssffdiv2{
@@ -26,7 +26,7 @@
     border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
     right: 0;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .swapped.ssffdiv1{
@@ -48,14 +48,14 @@
     border: 2px solid green;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .ssffdiv3{
     width: 250px;
     height: 500px;
     right: 0;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .swapped.ssffdiv3{
