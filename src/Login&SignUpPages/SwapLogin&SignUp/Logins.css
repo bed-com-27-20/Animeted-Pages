@@ -1,6 +1,8 @@
 .fswapdiv{
    display: flex;
    justify-content: center;
+   background-color: rgb(184, 205, 237);
+   height: 100vh;
 }
 
 .sswapdiv{
@@ -9,7 +11,9 @@
     width: 600px;
     height: 500px;
     margin-top: 7%;
-    border: 2px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.5);
 }
 
 .ssffdiv1{
@@ -47,17 +51,19 @@
 }
 
 .ssffdiv4{
-    width: 250px;
+   
+    width: 300px;
     height: 500px;
     left: 0;
     border: 2px solid green;
+    background-color: rgb(27, 171, 27);
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
     transition: transform 1s;
 }
 
 .ssffdiv3{
-    width: 250px;
+    width: 300px;
     height: 500px;
     right: 0;
     transition: transform 1s;
@@ -98,6 +104,10 @@
     background-color: transparent;
 }
 
+#makaz:hover{
+    border-color: gold;
+}
+
 #mland{
    
     height: 450px;
@@ -133,4 +143,29 @@
 
 #kantu{
     padding-right: 100px;
+}
+
+#tikhala{
+    margin-left: 15%;
+}
+
+#qkf{
+    padding-right: 20px;
+}
+
+#dama22{
+    padding-right: 30px;
+}
+
+.gome56{
+    text-align: center;
+    margin-left: 18%;
+    height: 300px;
+    margin-top: 40%;
+    width: 200px;
+}
+
+#kakalem{
+    color: white;
+    padding-right: 15px;
 }
