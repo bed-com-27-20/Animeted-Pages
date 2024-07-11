@@ -63,8 +63,42 @@
 }
 
 #mland{
-    border: 2px solid pink;
+   
     height: 450px;
-    width: 250px;
+    width: 220px;
     margin-top: 10%;
+}
+
+#dama{
+    margin-top: 0%;
+    
+}
+
+#icons{
+    display: flex;
+    flex-direction: initial;
+    justify-content: space-between;
+    width: 80px;
+    margin-bottom: 5%;
+}
+
+#singbox{
+
+}
+
+#singput{
+    box-shadow: none;
+    height: 30px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#straight{
+    background-color: rgb(27, 171, 27);
+    color: white;
+    border-radius: 15px;
+}
+
+#kantu{
+    padding-right: 100px;
 }
