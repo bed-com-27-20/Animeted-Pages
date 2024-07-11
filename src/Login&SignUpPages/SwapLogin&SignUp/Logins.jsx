@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FcGoogle } from "react-icons/fc";
+import { FaFacebook,FaGithub,FaLinkedin } from "react-icons/fa";
 import './Logins.css'
 
 const Logins = () => {
@@ -17,19 +19,46 @@ const Logins = () => {
       {showDiv2 ? (
         <div className='sswapdiv'>
           <div className={`ssffdiv1 ${isSwapped ? 'swapped' : ''}`}>
-                sign in
+          <div id='mland'>
+                    <h1 id='dama'>Sign In</h1>
+                    <div id='icons'>
+                    <FcGoogle size={25}/>
+                    <FaFacebook size={25} color='blue'/>
+                    </div>
+                    <div id='icons'> 
+                    <FaGithub size={25} color='blue'/>
+                    <FaLinkedin size={25} color='blue'/>
+                    </div>
+                    <div id='singbox'>
+                    <p>Or use your Email and Password</p>
+                    <input id='singput' placeholder='Email'></input>
+                    <input id='singput' placeholder='Password'></input>
+                    <p id='kantu'>Forget your password?</p>
+                    </div>
+                    <button id='straight'>SIGN IN</button>
+                </div>
             </div>
             <div className={`ssffdiv2 ${isSwapped ? 'swapped' : ''}`}>
-                hello 
-                friends
-                <button onClick={handleSwap} className='swapbtz'>go to acc create</button>
+            <div className='gome'>
+                    <h1 id='zaza'>Hello, Friend!</h1>
+
+                    <p id='kaka'>Register with your personal details to use all of site features</p>
+
+                    <button onClick={handleSwap} id='makaz'>SIGN UP</button>
+               </div>
+                
             </div>
         </div>
       ) : (
         <div className='sswapdiv'>
           <div className={`ssffdiv3 ${isSwapped ? 'swapped' : ''}`}>
-                welcom 
-                back
+          <div className='gome'>
+                    <h1 id='zaza'>Hello, Friend!</h1>
+
+                    <p id='kaka'>Register with your personal details to use all of site features</p>
+
+                    <button id='makaz'>SIGN UP</button>
+               </div>
             </div>
             <div className={`ssffdiv4 ${isSwapped ? 'swapped' : ''}`}>
                 create 
