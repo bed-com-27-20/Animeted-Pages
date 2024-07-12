@@ -8,6 +8,7 @@ import Login from './Login&SignUpPages/MatrixPage/Login'
 import Matrixpage from './Login&SignUpPages/MatrixPage/Matrixpage';
 import Logins from './Login&SignUpPages/SwapLogin&SignUp/Logins';
 import Aside from './Login&SignUpPages/Aside/Aside';
+import Landing from './LandingPage/Landing';
 
 const router = createBrowserRouter([
 {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
 {
   path: "Aside",
   element: <Aside/>,
+},
+{
+  path: "Land",
+  element: <Landing/>,
 },
 ]);
 

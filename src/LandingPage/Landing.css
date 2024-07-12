@@ -1,0 +1,25 @@
+.landffd{
+   display: flex;
+   flex-direction: column; 
+   overflow-y: scroll; 
+   scroll-snap-type: y mandatory; 
+   height: 100vh; 
+}
+
+.landsector1{
+    flex: 0 0 100vh; 
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.landsector2{
+    flex: 0 0 100%; 
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.landsector3{
+    flex: 0 0 100%; 
+    height: 100vh;
+    scroll-snap-align: start;
+}
