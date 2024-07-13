@@ -35,9 +35,6 @@ function Welcom() {
        </section>
        <section id='sect22'></section>
      </main>
-      <div className='movingText'>
-        <h1 id='qqq'> welcome to gambit the code master </h1>
-     </div>
     </div>
   )
 }

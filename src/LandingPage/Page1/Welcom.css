@@ -6,15 +6,17 @@
 }
 
 .iweyo {
-    width: 100%; /* Full width of the container */
-    overflow: hidden; /* Hide overflow */
+    background: linear-gradient(90deg, black,grey);
+    width: 100%; 
+    overflow: hidden; 
     box-sizing: border-box;
+    height: 100vh;
   }
   
   .movingText {
     display: inline-block;
     white-space: nowrap; 
-    animation: marquee 10s linear infinite; 
+    animation: marquee 20s infinite linear; 
   }
   
   #qqq {
@@ -33,25 +35,22 @@
   
   .mainbody{
     height: 70vh;
-    border: 2px solid yellow;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: black;
   }
 
   #sect11{
     margin: 10px;
     width: 35%;
-    border: 2px solid black;
   }
 
   #sect22{
-    background-image: url(http://4.bp.blogspot.com/-wf1z84cklYA/Uuy4-C6XlbI/AAAAAAAABWU/HOKynera6kM/s1600/power-3.jpg);
-    background-size: contain;
+    background-image: url(../../Images/owner.jpg);
+    background-size: cover;
     width: 30%;
-    margin: 10px;
-    border: 2px solid blue;
+    margin: 10px; 
+    border-radius: 10px 50px;
   }
 
   #name{
@@ -66,7 +65,6 @@
   }
 
   #iconlink{
-    border: 2px solid gold;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -74,13 +72,32 @@
   }
 
  #spn4{
-  border: 2px solid blue;
+  border: 2px solid transparent;
   display: flex;
   justify-content: center;
   padding: 3px;
   border-radius: 5px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  position: relative;
  }
 
  #spn4:hover{
+  border-color: #fff;
+  animation: borderGlow 1s infinite;
   transform: rotate(-35deg) skew(20deg);
  }
+
+ @keyframes borderGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2), 
+                0 0 20px rgba(255, 255, 255, 0.4), 
+                0 0 30px rgba(255, 255, 255, 0.6), 
+                0 0 40px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+                0 0 40px rgba(255, 255, 255, 0.6), 
+                0 0 60px rgba(255, 255, 255, 0.4), 
+                0 0 80px rgba(255, 255, 255, 0.2);
+  }
+}
