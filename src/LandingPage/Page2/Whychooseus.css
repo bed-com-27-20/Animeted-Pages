@@ -1,0 +1,48 @@
+.whyUs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    width: 30%;
+    height: 80vh;
+}
+
+#middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 80vh;
+}
+
+#right{
+    border: 2px solid purple;
+    width: 30%;
+    height: 80vh;
+}
+
+#top{
+    border:2px solid red;
+    height: 40vh;
+}
+
+#bottom{
+    border:2px solid pink;
+    height: 40vh;
+}
+
+#midleimg{
+    border: 2px solid gold;
+    height: 50vh;
+    border-radius: 100%;
+    width: 80%;
+    margin: 50px;
+}

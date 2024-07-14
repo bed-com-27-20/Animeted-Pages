@@ -1,6 +1,7 @@
 import React from 'react'
 import './Landing.css'
 import Welcom from './Page1/Welcom'
+import Whychooseus from './Page2/Whychooseus'
 
 export default function Landing() {
   return (
@@ -9,7 +10,7 @@ export default function Landing() {
         <Welcom></Welcom>
       </div>
       <div className='landsector2'>
-        sector 2
+        <Whychooseus></Whychooseus>
       </div>
       <div className='landsector3'>
         sector 3
