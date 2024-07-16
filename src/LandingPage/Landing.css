@@ -22,7 +22,7 @@
     flex: 0 0 100%; 
     height: 100vh;
     scroll-snap-align: start;
-    background-color: black;
+    background-color:grey;
     color: aliceblue;
 }
 
@@ -40,19 +40,8 @@
     color: black;
   }
 
-  
 #vermin{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-  }
-
-  #yg4top{
-    border: 2px solid green;
-    height: 70vh;
-  }
-
-  #yg4bottom{
-    border: 2px solid purple;
-    height: 20vh;
   }

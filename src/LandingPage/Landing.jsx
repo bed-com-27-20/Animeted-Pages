@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Landing.css'
 import Welcom from './Page1/Welcom'
 import Whychooseus from './Page2/Whychooseus'
+import EduandSkills from './page3/EduandSkills';
 
 export default function Landing() {
   return (
@@ -14,8 +15,7 @@ export default function Landing() {
         <Whychooseus></Whychooseus>
       </div>
       <div className='landsector3'>
-        <div id='yg4top'>top</div>
-        <div id='yg4bottom'>bottom</div>
+        <EduandSkills></EduandSkills>
       </div>
       <div className='landsector4'>
       <ul id='vermin'>

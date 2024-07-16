@@ -1,0 +1,53 @@
+.landsector3{
+    flex: 0 0 100%; 
+    height: 100vh;
+    scroll-snap-align: start;
+    background-color:grey;
+    color: aliceblue;
+}
+
+#yg4top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid green;
+    height: 70vh;
+  }
+
+  #yg4bottom{
+    border: 2px solid purple;
+    height: 20vh;
+  }
+
+  #yg4left{
+    border: 2px solid blue;
+    width: 40%;
+  }
+
+  #yg4right{
+   border: 2px solid white;
+   width: 40%;
+  }
+
+  #eduic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  #edudiv{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.5);
+  }
+
+  #eduspn{
+    margin: 10px;
+  }
+
+  #eduyr{
+    margin-left: 10px;
+    color: gold;
+  }
