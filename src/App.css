@@ -1,23 +1,10 @@
 #eve{
-  margin-top: -16px;
-  height: 100vh;
+  margin-top: 0px;
   width: auto;
-  background-image: url(https://en.idei.club/uploads/posts/2023-06/1686263439_en-idei-club-p-background-dizain-1.jpg);
+  background-image: url(https://www.kernadler.com/images/web-application-blog.jpg);
   background-size: cover;
-}
-
-.listyle{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-weight: 100;
-  text-decoration: none; font-weight: 600;
-  font-size: larger;
-  font-family: 'Times New Roman', Times, serif;
-  color: black;
 }
 
 .listyle:hover{
   color: green;
-  
 }

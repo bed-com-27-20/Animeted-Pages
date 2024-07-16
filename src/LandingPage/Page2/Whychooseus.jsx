@@ -7,8 +7,8 @@ import './Whychooseus.css'
 
 function Whychooseus() {
   return (
-   <>
-    <div className='sukuna'><h1 >why choose us</h1></div>
+   <div className='oppac'>
+    <div className='sukuna'><h1 id='piz'>why choose us</h1></div>
     <div className='whyUs'>
         <div id='left'>
             <div id='top'>
@@ -50,7 +50,7 @@ function Whychooseus() {
                 </p>
             </div>
         </div>
-    </div></>
+    </div></div>
   )
 }
 

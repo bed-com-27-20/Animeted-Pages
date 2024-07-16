@@ -1,3 +1,7 @@
+.oppac{
+    background: linear-gradient(90deg, black,grey);
+}
+
 .sukuna{
     display: flex;
     justify-content: center;
@@ -63,9 +67,15 @@
 #h1pos{
     align-self: center;
     font-size: x-large;
+    color: white;
 }
 
 #ppos{
     align-self: center;
     margin-top: 0px;
+    color: white;
+}
+
+#piz{
+    color: white;
 }
