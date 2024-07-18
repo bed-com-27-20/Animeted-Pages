@@ -71,3 +71,31 @@
     margin-top: -7px;
     align-self: center;
   }
+
+  #animelk{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    border: 2px solid firebrick;
+    width: 70%;
+    height: 10%;
+    margin-bottom: 30px;
+  }
+
+  #animeclick{
+    font-size: large;
+    margin: 10px;
+    margin-left: 50px;
+  }
+
+  #swapswap{
+    text-decoration: none;
+    color: black;
+  }
+
+  #yg4left:hover{
+    #animelk{
+      box-shadow:  0 10px 20px rgb(0, 0, 0, 0.5) ;
+      transition: 1s ease-in-out;
+    }
+  }
