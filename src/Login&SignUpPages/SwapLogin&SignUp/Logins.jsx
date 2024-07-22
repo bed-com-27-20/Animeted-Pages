@@ -77,7 +77,7 @@ const Logins = () => {
 
                     <p id='kakalem'>Enter your personal details to use all of site features</p>
 
-                    <button onClick={handleSwap} id='makaz'>SIGN UP</button>
+                    <button onClick={handleSwap} id='makaz'>SIGN IN</button>
                </div>
             </div>
         </div>

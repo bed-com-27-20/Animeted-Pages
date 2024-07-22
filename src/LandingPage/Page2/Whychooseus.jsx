@@ -8,20 +8,20 @@ import './Whychooseus.css'
 function Whychooseus() {
   return (
    <div className='oppac'>
-    <div className='sukuna'><h1 id='piz'>why choose us</h1></div>
+    <div className='sukuna'><h1 id='piz'>WHY CHOOSE US</h1></div>
     <div className='whyUs'>
         <div id='left'>
             <div id='top'>
-                <div id='iconpos'><TbBriefcase size={60} color='blue'/></div>
-                <h1 id='h1pos'>500+ sites</h1>
+                <div id='iconpos'><TbBriefcase size={60} color='white'/></div>
+                <h1 id='h1pos'>5+ SITES</h1>
                 <p id='ppos'>
-                With over 100 successfully deployed websites, our portfolio 
+                With over 5 successfully deployed websites, our portfolio 
                 showcases our ability to handle diverse projects across 
                 various industries.
                 </p>
             </div>
             <div id='bottom'>
-                <div id='iconpos'><SiCreatereactapp  size={60} color='blue'/></div>
+                <div id='iconpos'><SiCreatereactapp  size={60} color='white'/></div>
                 <h1 id='h1pos'>DEVELOPMENT</h1>
                 <p id='ppos'>
                 Our team of seasoned developers is dedicated to crafting high-quality
@@ -34,7 +34,7 @@ function Whychooseus() {
         </div>
         <div id='right'>
             <div id='top'>
-                <div id='iconpos'><RiCustomerService2Fill size={60} color='blue'/></div>
+                <div id='iconpos'><RiCustomerService2Fill size={60} color='white'/></div>
                 <h1 id='h1pos'>SUPPORT</h1>
                 <p id='ppos'>
                 Our support team is available around the clock to assist you with 
@@ -42,7 +42,7 @@ function Whychooseus() {
                 </p>
             </div>
             <div id='bottom'>
-                <div id='iconpos'><FaJetFighterUp size={60} color='blue'/></div>
+                <div id='iconpos'><FaJetFighterUp size={60} color='white'/></div>
                 <h1 id='h1pos'>EFFECTIVE</h1>
                 <p id='ppos'>
                 We focus on delivering measurable results, ensuring that our solutions

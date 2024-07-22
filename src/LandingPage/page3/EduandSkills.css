@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:grey;
+    background: linear-gradient(90deg, black,grey);
     color: aliceblue;
 }
 
@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid green;
     height: 70vh;
   }
 
@@ -21,17 +20,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 2px solid purple;
     height: 20vh;
   }
 
   #yg4left{
-    border: 2px solid blue;
     width: 40%;
   }
 
   #yg4right{
-   border: 2px solid white;
    width: 40%;
   }
 
@@ -39,14 +35,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: gold;
+    color: white;
 
   }
 
   #edudiv{
     display: flex;
     flex-direction: column;
-    border: 2px solid green;
     box-shadow: 0 10px 20px rgb(0, 0, 0, 0.5);
   }
 
@@ -63,7 +58,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid magenta;
     width: 20%;
   }
 
@@ -76,10 +70,11 @@
     display: flex;
     flex-direction: row;
     margin-left: 90px;
-    border: 2px solid firebrick;
+    box-shadow:  0 10px 20px rgb(0, 0, 0, 0.5) ;
+    transition: 1s ease-in-out;
     width: 70%;
     height: 10%;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   #animeclick{
@@ -90,12 +85,5 @@
 
   #swapswap{
     text-decoration: none;
-    color: black;
-  }
-
-  #yg4left:hover{
-    #animelk{
-      box-shadow:  0 10px 20px rgb(0, 0, 0, 0.5) ;
-      transition: 1s ease-in-out;
-    }
+    color: white;
   }
