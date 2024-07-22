@@ -104,3 +104,34 @@
                 0 0 80px rgba(255, 255, 255, 0.2);
   }
 }
+
+@media(max-width: 500px){
+  .mainbody{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 85%;
+  }
+
+  #sect11{
+    width: 100%;
+  }
+
+  #sect22{
+    height: 500%;
+    width: 95%;
+    background-image: url(../../Images/uss.jpg);
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  #name{
+    padding: 0px;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  #qqq{
+    font-size: larger;
+  }
+
+}
