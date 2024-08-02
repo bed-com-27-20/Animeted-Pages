@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(90deg, black,grey);
+    backdrop-filter: blur(20px);
     color: aliceblue;
 }
 
@@ -84,6 +84,11 @@
   }
 
   #swapswap{
+    text-decoration: none;
+    color: white;
+  }
+
+  .daisy{
     text-decoration: none;
     color: white;
   }

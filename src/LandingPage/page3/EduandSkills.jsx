@@ -57,12 +57,16 @@ export default function EduandSkills() {
           <div id='ygbtm'>
             <span id='ygbticon'><LuPhoneOutgoing size={40} color='white'/></span>
             <span id='ygbticon'><h2>Phone</h2></span>
-            <span id='ygbticon'>+265 997 138 340</span>
+            <a href="tel:+265997138340" className='daisy'> 
+              <span id='ygbticon'>+265 997 138 340</span>
+            </a>
           </div>
           <div id='ygbtm'>
             <span id='ygbticon'><HiOutlineMail size={40} color='white'/></span>
             <span id='ygbticon'><h2>Email</h2></span>
-            <span id='ygbticon'>gambizamax@gmail.com</span>
+            <a href="mailto:gambizamax@gmail.com" target="_blank" rel="noreferrer noopener" className='daisy'>
+              <span id='ygbticon'>gambizamax@gmail.com</span>
+            </a>
           </div>
         </div>
       </div>

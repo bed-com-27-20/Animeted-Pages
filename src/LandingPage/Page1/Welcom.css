@@ -6,7 +6,7 @@
 }
 
 .iweyo {
-    background: linear-gradient(90deg, black,grey);
+  backdrop-filter: blur(20px);
     width: 100%; 
     overflow: hidden; 
     box-sizing: border-box;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
 
-  #sect11{
+  #sect11{   
     margin: 10px;
     width: 35%;
   }
@@ -51,6 +51,7 @@
     width: 30%;
     margin: 10px; 
     border-radius: 10px 50px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.5);
   }
 
   #name{
@@ -62,7 +63,7 @@
   #explain{
     padding-right: 20px;
     color: white;
-    animation: effect3d;
+    text-align: justify;
   }
 
   #iconlink{
@@ -132,5 +133,11 @@
   #qqq{
     font-size: larger;
   }
+
+ #spn4:hover{
+  border-color: #fff;
+  animation: borderGlow 1s infinite;
+  transform: rotate(0deg) skew(0deg);
+ }
 
 }

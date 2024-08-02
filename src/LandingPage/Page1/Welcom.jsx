@@ -1,9 +1,8 @@
 import React from 'react'
 import './Welcom.css'
 import { IoLogoTwitter } from "react-icons/io";
-import { BsYoutube } from "react-icons/bs";
 import { RiLinkedinFill } from "react-icons/ri";
-import { FaInstagram,FaFacebookF } from "react-icons/fa";
+import { FaInstagram,FaFacebookF,FaWhatsappSquare } from "react-icons/fa";
 
 function Welcom() {
   return (
@@ -26,10 +25,18 @@ function Welcom() {
           details and see how thoughtful design can transform user
           interactions.</p>
           <div id='iconlink'>
-              <span id='spn4'><FaFacebookF  size={25} color='blue'/></span>
-              <span id='spn4'><IoLogoTwitter size={25} color='blue'/></span>
-              <span id='spn4'><BsYoutube size={25} color='red'/></span>
-              <span id='spn4'><FaInstagram size={25} color='purple'/></span>
+              <a href="https://www.facebook.com/GAMBITGAMBIZA" target="_blank" rel="noreferrer noopener">
+                <span id='spn4'><FaFacebookF  size={25} color='blue'/></span>
+              </a>
+              <a href="https://twitter.com/GambitGamb48482" target="_blank" rel="noreferrer noopener">
+                <span id='spn4'><IoLogoTwitter size={25} color='blue'/></span>
+              </a>
+              <a href="https://wa.me/265997138340" target="_blank" rel="noreferrer noopener">
+                <span id='spn4'><FaWhatsappSquare size={25} color='green'/>
+              </span></a>
+              <a href="https://www.instagram.com/gambit_gambiza/" target="_blank" rel="noreferrer noopener">
+                <span id='spn4'><FaInstagram size={25} color='purple'/></span>
+              </a>
               <span id='spn4'><RiLinkedinFill size={25} color='blue'/></span>
           </div>
        </section>
