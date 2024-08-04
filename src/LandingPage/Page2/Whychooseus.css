@@ -74,7 +74,7 @@
     align-self: center;
     margin-top: 0px;
     color: white;
-    text-align: center;
+    text-align: justify;
 }
 
 #piz{
@@ -87,7 +87,7 @@
  }
 
  #ppos{
-    text-align: justify;
+    text-align: left;
  }
 
  #left{
