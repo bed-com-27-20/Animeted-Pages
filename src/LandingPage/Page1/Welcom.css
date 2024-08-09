@@ -175,7 +175,6 @@
 }
 
 .mainbody{
-  
   display: flex;
   flex-direction: column-reverse;
   height: 90vh;
@@ -184,7 +183,6 @@
 }
 
 #sect11{
-
 width: 90%;
 }
 
