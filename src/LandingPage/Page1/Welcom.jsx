@@ -11,7 +11,7 @@ function Welcom() {
     <div id='flag'>
     </div>
     <div className='movingText'>
-        <h1 id='qqq'> Thank U For Visiting Gambit The Code Master </h1>
+        <h1 id='qqq'>Malawian web developer</h1>
      </div>
     </div>
      <main className='mainbody'>

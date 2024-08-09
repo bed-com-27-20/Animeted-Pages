@@ -166,6 +166,32 @@
 
 }
 
-@media screen and (min-width: 501px) and (max-width: 833px) {
+@media screen and (min-width: 501px) and (max-width: 920px) {
+#flag{
+   background-size: 8vh;
+    margin: 10px;
+    height: 6vh;
+    width: 10%; 
+}
 
+.mainbody{
+  
+  display: flex;
+  flex-direction: column-reverse;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#sect11{
+
+width: 90%;
+}
+
+#sect22{
+  background-image: url(../../Images/us3.jpg);
+  width: 90%;
+  height: 50%;
+  border-radius: 10px;
+}
 }
