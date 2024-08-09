@@ -28,6 +28,8 @@
   #flag{
     background-image: url(../../Images/Malawi-l.gif);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: 13vh;
     margin: 10px;
     height: 9vh;
@@ -161,5 +163,9 @@
   height: 4vh;
   width: 13%;
 }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 833px) {
 
 }

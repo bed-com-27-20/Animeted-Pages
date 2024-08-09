@@ -8,7 +8,8 @@ function Welcom() {
   return (
     <div className='iweyo'>
     <div id='anime'>
-    <div id='flag'></div>
+    <div id='flag'>
+    </div>
     <div className='movingText'>
         <h1 id='qqq'> Thank U For Visiting Gambit The Code Master </h1>
      </div>
