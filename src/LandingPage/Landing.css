@@ -45,8 +45,13 @@
     justify-content: space-evenly;
   }
 
-  @media(max-width: 500px){
-    .landsector2{
-        height: auto;
+@media(max-width: 500px){
+.landsector2{
+    height: max-content;
+    }
+
+.landffd{
+     overflow-y: none; 
+     scroll-snap-type: none; 
     }
   }

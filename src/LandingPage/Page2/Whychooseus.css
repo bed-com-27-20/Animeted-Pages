@@ -93,6 +93,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: auto;
  }
 
  #middle{
@@ -107,14 +108,16 @@
 
  #left{
 width: 80%;
+height: auto;
  }
 
  #right{
     width: 80%;
+    height: auto;
  }
 
  #top{
-    height: 50%;
+    height: 20%;
     margin-bottom: 10%;
     border: 2px solid transparent;
     box-shadow: inset 0 10px 15px rgba(0, 0, 0, 0.3);
@@ -164,7 +167,7 @@ width: 80%;
 }
 
  #bottom{
-    height: 50%;
+    height: 20%;
     margin-bottom: 10%;
     border: 1px solid transparent;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
