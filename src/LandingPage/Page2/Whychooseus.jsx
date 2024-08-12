@@ -12,8 +12,10 @@ function Whychooseus() {
     <div className='whyUs'>
         <div id='left'>
             <div id='top'>
-                <div id='iconpos'><TbBriefcase size={60} color='white'/></div>
-                <h1 id='h1pos'>5+ SITES</h1>
+                <div id='tiwone'>
+                    <div id='iconpos'><TbBriefcase size={60} color='white'/></div>
+                    <h1 id='h1pos'>5+ SITES</h1>
+                </div>
                 <p id='ppos'>
                 With over 5 successfully deployed websites, our portfolio 
                 showcases our ability to handle diverse projects across 
@@ -21,8 +23,10 @@ function Whychooseus() {
                 </p>
             </div>
             <div id='bottom'>
-                <div id='iconpos'><SiCreatereactapp  size={60} color='white'/></div>
-                <h1 id='h1pos'>DEVELOPMENT</h1>
+               <div id='tiwone'>
+                    <div id='iconpos'><SiCreatereactapp  size={60} color='white'/></div>
+                    <h1 id='h1pos'>DEVELOPMENT</h1>
+               </div>
                 <p id='ppos'>
                 Our team of seasoned developers is dedicated to crafting high-quality
                 code that ensures optimal performance and seamless user experiences.   
@@ -34,16 +38,20 @@ function Whychooseus() {
         </div>
         <div id='right'>
             <div id='top'>
-                <div id='iconpos'><RiCustomerService2Fill size={60} color='white'/></div>
-                <h1 id='h1pos'>SUPPORT</h1>
+                <div id='tiwone'>
+                    <div id='iconpos'><RiCustomerService2Fill size={60} color='white'/></div>
+                    <h1 id='h1pos'>SUPPORT</h1>
+                </div>
                 <p id='ppos'>
                 Our support team is available around the clock to assist you with 
                 any issues or inquiries, ensuring minimal downtime and uninterrupted service
                 </p>
             </div>
             <div id='bottom'>
-                <div id='iconpos'><FaJetFighterUp size={60} color='white'/></div>
-                <h1 id='h1pos'>EFFECTIVE</h1>
+                <div id='tiwone'>
+                    <div id='iconpos'><FaJetFighterUp size={60} color='white'/></div>
+                    <h1 id='h1pos'>EFFECTIVE</h1>
+                </div>
                 <p id='ppos'>
                 We focus on delivering measurable results, ensuring that our solutions
                 align with your business goals and drive tangible outcomes
